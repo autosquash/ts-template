@@ -193,6 +193,9 @@ const config = {
 
     // Whether to use watchman for file crawling
     // watchman: true,
+    preset: 'ts-jest',
+    testEnvironment: 'node',
+    testMatch: ['**/*.test.ts'],
 }
 
 module.exports = config
