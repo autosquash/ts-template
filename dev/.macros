@@ -1,0 +1,5 @@
+go=npm run go
+run=npm run dev
+test=npm test
+tc=npx tsc --noEmit
+check=npx tsc --noEmit && npm test
